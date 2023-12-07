@@ -1,6 +1,6 @@
 {
   "name": "@toystory/potato",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "zhanghelong",
   "description": "a component of pdf to html, base on Vue3.",
   "keywords": [

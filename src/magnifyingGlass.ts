@@ -109,7 +109,6 @@ export class MagnifyingGlass {
     // 相对偏移量
     let currentParent = element.offsetParent as HTMLElement
     while (currentParent !== null) {
-      console.log('currentParent', currentParent.offsetTop)
       top += currentParent.offsetTop
       left += currentParent.offsetLeft
       currentParent = currentParent.offsetParent as HTMLElement
@@ -118,7 +117,6 @@ export class MagnifyingGlass {
     // 相对滚动的距离
     let parentElement = element.parentElement
     while (parentElement !== null) {
-      // console.log('currentParent', currentParent.scrollTop)
       top -= parentElement.scrollTop
       left -= parentElement.scrollLeft
       parentElement = parentElement.parentElement

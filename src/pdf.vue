@@ -154,7 +154,6 @@ const handleAddscale = () => {
  *   缩小
  * */
 const handleMinus = () => {
-  console.log(pdfScale.value)
   const scale = +pdfScale.value.toFixed(2)
   if (scale <= minScale.value) {
     return
